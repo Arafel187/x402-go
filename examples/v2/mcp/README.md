@@ -37,7 +37,7 @@ The client initializes an MCP session, lists available tools, calls a free tool,
 go run main.go client \
   --server http://localhost:8080 \
   --network eip155:84532 \
-  --private-key "0xYOUR_HEX_PRIVATE_KEY" \
+  --key "0xYOUR_HEX_PRIVATE_KEY" \
   --verbose
 ```
 
@@ -57,7 +57,7 @@ Run the client:
 go run main.go client \
   --server https://agentground.atlether.trade/mcp \
   --network eip155:8453 \
-  --private-key "$BASE_MAINNET_PRIVATE_KEY" \
+  --key "$BASE_MAINNET_PRIVATE_KEY" \
   --verbose
 ```
 
